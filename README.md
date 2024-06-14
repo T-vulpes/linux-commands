@@ -2,58 +2,52 @@
 
 ##Contents
 
-1. [Introduction](#introduction) (1)
-2. [echo](#echo) (4)
-3. [mv](#mv) (5)
-4. [cp](#cp) (7)
-5. [mkdir](#mkdir) (3)
-6. [rmdir](#rmdir) (2)
-7. [clear](#clear) (1)
-8. [cal and ncal](#cal-and-ncal) (4)
-9. [pwd](#pwd) (1)
-10. [date](#date) (6)
-11. [free](#free) (2)
-12. [du](#du) (4)
-13. [df](#df) (3)
-14. [cat](#cat) (2)
-15. [ls](#ls) (5)
-16. [rm](#rm) (2)
-17. [lspci](#lspci) (6)
-18. [whereis](#whereis) (2)
-19. [whatis and info](#whatis-and-info) (1)
-20. [cd](#cd) (1)
-21. [more](#more) (2)
-22. [less](#less) (6)
-23. [dircolors](#dircolors) (1)
-24. [manpath](#manpath) (1)
-25. [apropos](#apropos) (1)
-26. [mandb](#mandb) (1)
-27. [history](#history) (1)
-28. [sort](#sort) (1)
-29. [fdisk](#fdisk) (1)
-30. [locate](#locate) (2)
-31. [find](#find) (4)
-32. [ifconfig](#ifconfig) (2)
-33. [apt-get](#apt-get) (2)
-34. [nano](#nano) (1)
-35. [man](#man) (12)
-36. [aircrack-ng](#aircrack-ng) (2)
-37. [wesside-ng](#wesside-ng) (1)
-38. [Other Useful Commands](#other-useful-commands) (8)
-39. [Running Programs from the Console](#running-programs-from-the-console) (1)
-40. [Backup Settings](#backup-settings) (1)
-41. [testdisk](#testdisk) (2)
-42. [Software Manager](#software-manager) (1)
-43. [Functions of Some Files and Directories](#functions-of-some-files-and-directories) (2)
-44. [Linux Mint Basics](#linux-mint-basics) (2)
-45. [Shell Programming](#shell-programming) (2)
-46. [Conquest Day of Mecca](#conquest-day-of-mecca) (1)
+1. [Introduction](#introduction)
+2. [echo](#echo) 
+3. [mv](#mv) 
+4. [cp](#cp) 
+5. [mkdir](#mkdir) 
+6. [rmdir](#rmdir) 
+7. [clear](#clear) 
+8. [cal and ncal](#cal-and-ncal) 
+9. [pwd](#pwd) 
+10. [date](#date) 
+11. [free](#free)
+12. [du](#du) 
+13. [df](#df) 
+14. [cat](#cat) 
+15. [ls](#ls) 
+16. [rm](#rm) 
+17. [lspci](#lspci)
+18. [whereis](#whereis) 
+19. [whatis and info](#whatis-and-info)
+20. [cd](#cd)
+21. [more](#more)
+22. [less](#less) 
+23. [dircolors](#dircolors) 
+24. [manpath](#manpath) 
+25. [apropos](#apropos) 
+26. [mandb](#mandb) 
+27. [history](#history) 
+28. [sort](#sort) 
+29. [fdisk](#fdisk) 
+30. [locate](#locate) 
+31. [find](#find) 
+32. [ifconfig](#ifconfig) 
+33. [apt-get](#apt-get) 
+34. [nano](#nano) 
+35. [man](#man) 
+36. [aircrack-ng](#aircrack-ng) 
+37. [wesside-ng](#wesside-ng) 
+38. [Other Useful Commands](#other-useful-commands)
+39. [Running Programs from the Console](#running-programs-from-the-console)
+40. [testdisk](#testdisk) 
+41. [Functions of Some Files and Directories](#functions-of-some-files-and-directories) 
 
 ## Introduction
+This repository provides explanations and examples for basic Linux commands. 
 
-This repository provides explanations and examples for basic Linux commands. Each command is covered with its usage, options, and examples to help users understand and utilize them effectively.
-
-## echo (4)
+## echo 
 
 The `echo` command is used to display a line of text/string that is passed as an argument.
 
@@ -67,7 +61,7 @@ echo [option] [string]
 echo "Hello, World!"
 ```
 
-## mv (5)
+## mv 
 
 The `mv` command is used to move or rename files and directories.
 
@@ -82,7 +76,7 @@ mv file1.txt file2.txt
 mv file.txt /home/user/Documents/
 ```
 
-## cp (7)
+## cp 
 
 The `cp` command is used to copy files and directories.
 
@@ -97,7 +91,7 @@ cp file1.txt file2.txt
 cp -r /source/directory /destination/directory
 ```
 
-## mkdir (3)
+## mkdir 
 
 The `mkdir` command is used to create directories.
 
@@ -111,7 +105,7 @@ mkdir [option] directory_name
 mkdir new_directory
 ```
 
-## rmdir (2)
+## rmdir 
 
 The `rmdir` command is used to remove empty directories.
 
@@ -125,7 +119,7 @@ rmdir [option] directory_name
 rmdir empty_directory
 ```
 
-## clear (1)
+## clear 
 
 The `clear` command is used to clear the terminal screen.
 
@@ -134,7 +128,7 @@ The `clear` command is used to clear the terminal screen.
 clear
 ```
 
-## cal and ncal (4)
+## cal and ncal
 
 The `cal` command displays a simple calendar, and `ncal` displays a calendar in a different format.
 
@@ -150,7 +144,7 @@ cal
 ncal -w
 ```
 
-## pwd (1)
+## pwd 
 
 The `pwd` command prints the current working directory.
 
@@ -159,7 +153,7 @@ The `pwd` command prints the current working directory.
 pwd
 ```
 
-## date (6)
+## date 
 
 The `date` command displays or sets the system date and time.
 
@@ -174,7 +168,7 @@ date
 date "+%Y-%m-%d %H:%M:%S"
 ```
 
-## free (2)
+## free 
 
 The `free` command displays the amount of free and used memory in the system.
 
@@ -189,7 +183,7 @@ free
 free -h
 ```
 
-## du (4)
+## du 
 
 The `du` command estimates file space usage.
 
@@ -204,7 +198,7 @@ du
 du -sh
 ```
 
-## df (3)
+## df 
 
 The `df` command reports file system disk space usage.
 
@@ -219,7 +213,7 @@ df
 df -h
 ```
 
-## cat (2)
+## cat 
 
 The `cat` command concatenates and displays files.
 
@@ -234,7 +228,7 @@ cat file.txt
 cat file1.txt file2.txt
 ```
 
-## ls (5)
+## ls 
 
 The `ls` command lists directory contents.
 
@@ -249,7 +243,7 @@ ls
 ls -l
 ```
 
-## rm (2)
+## rm 
 
 The `rm` command removes files or directories.
 
@@ -264,7 +258,7 @@ rm file.txt
 rm -r directory
 ```
 
-## lspci (6)
+## lspci
 
 The `lspci` command lists all PCI devices.
 
@@ -279,7 +273,7 @@ lspci
 lspci -v
 ```
 
-## whereis (2)
+## whereis
 
 The `whereis` command locates the binary, source, and manual page files for a command.
 
@@ -293,7 +287,7 @@ whereis command
 whereis ls
 ```
 
-## whatis and info (1)
+## whatis and info 
 
 The `whatis` command displays a one-line description of a command, and `info` provides detailed information.
 
@@ -309,7 +303,7 @@ whatis ls
 info ls
 ```
 
-## cd (1)
+## cd
 
 The `cd` command changes the current directory.
 
@@ -323,7 +317,7 @@ cd [directory]
 cd /home/user
 ```
 
-## more (2)
+## more 
 
 The `more` command views file contents interactively.
 
@@ -337,7 +331,7 @@ more [option] [file]
 more file.txt
 ```
 
-## less (6)
+## less 
 
 The `less` command views file contents interactively, similar to `more` but with more features.
 
@@ -351,7 +345,7 @@ less [option] [file]
 less file.txt
 ```
 
-## dircolors (1)
+## dircolors
 
 The `dircolors` command sets up color definitions for `ls`.
 
@@ -365,7 +359,7 @@ dircolors [option] [file]
 dircolors
 ```
 
-## manpath (1)
+## manpath 
 
 The `manpath` command displays the search path for manual pages.
 
@@ -379,7 +373,7 @@ manpath [option]
 manpath
 ```
 
-## apropos (1)
+## apropos
 
 The `apropos` command searches the manual page names and descriptions.
 
@@ -393,7 +387,7 @@ apropos keyword
 apropos copy
 ```
 
-## mandb (1)
+## mandb 
 
 The `mandb` command initializes or updates the manual page index caches.
 
@@ -407,7 +401,7 @@ mandb [option]
 mandb
 ```
 
-## history (1)
+## history
 
 The `history` command displays the command history list.
 
@@ -421,7 +415,7 @@ history [option]
 history
 ```
 
-## sort (1)
+## sort
 
 The `sort` command sorts lines of text files.
 
@@ -435,7 +429,7 @@ sort [option] [file]
 sort file.txt
 ```
 
-## fdisk (1)
+## fdisk 
 
 The `fdisk` command
 
@@ -451,7 +445,7 @@ fdisk [option] [device]
 fdisk /dev/sda
 ```
 
-## locate (2)
+## locate 
 
 The `locate` command finds files by name.
 
@@ -465,7 +459,7 @@ locate [option] pattern
 locate file.txt
 ```
 
-## find (4)
+## find 
 
 The `find` command searches for files in a directory hierarchy.
 
@@ -479,7 +473,7 @@ find [path] [option] [expression]
 find / -name file.txt
 ```
 
-## ifconfig (2)
+## ifconfig 
 
 The `ifconfig` command configures a network interface.
 
@@ -493,7 +487,7 @@ ifconfig [interface] [option]
 ifconfig eth0
 ```
 
-## apt-get (2)
+## apt-get 
 
 The `apt-get` command is a package handling utility.
 
@@ -507,7 +501,7 @@ apt-get [option] command
 apt-get update
 ```
 
-## nano (1)
+## nano 
 
 The `nano` command is a simple text editor.
 
@@ -521,7 +515,7 @@ nano [option] [file]
 nano file.txt
 ```
 
-## man (12)
+## man 
 
 The `man` command displays the user manual of any command.
 
@@ -535,7 +529,7 @@ man [command]
 man ls
 ```
 
-## aircrack-ng (2)
+## aircrack-ng 
 
 The `aircrack-ng` command is a network software suite for monitoring and attacking WiFi networks.
 
@@ -549,7 +543,7 @@ aircrack-ng [option] [file]
 aircrack-ng -a2 -b [target bssid] [capture file]
 ```
 
-## wesside-ng (1)
+## wesside-ng 
 
 The `wesside-ng` command is an automatic tool for WEP key recovery.
 
@@ -563,9 +557,9 @@ wesside-ng [option] [interface]
 wesside-ng -i wlan0
 ```
 
-## Other Useful Commands (8)
+## Other Useful Commands
 
-### Running Programs from the Console (1)
+### Running Programs from the Console 
 
 You can run programs from the console by typing their name and pressing Enter.
 
@@ -574,11 +568,7 @@ You can run programs from the console by typing their name and pressing Enter.
 program_name
 ```
 
-### Backup Settings (1)
-
-Backup settings can be configured using various tools and commands.
-
-### testdisk (2)
+### testdisk 
 
 The `testdisk` command is a data recovery utility.
 
@@ -592,24 +582,10 @@ testdisk [option]
 testdisk
 ```
 
-### Software Manager (1)
-
-The Software Manager allows you to install and manage software on your system.
-
-### Functions of Some Files and Directories (2)
+### Functions of Some Files and Directories 
 
 Files and directories serve various functions in Linux. For example:
 - `/etc`: Contains configuration files.
 - `/home`: Contains user home directories.
 
-### Linux Mint Basics (2)
 
-Linux Mint provides a user-friendly desktop experience with various features and customization options.
-
-### Shell Programming (2)
-
-Shell programming involves writing scripts to automate tasks.
-
-### Conquest Day of Mecca (1)
-
-A historical day marking the conquest of Mecca.
