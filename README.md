@@ -1,63 +1,65 @@
-# <span style="color:blue">Basic Linux Commands</span>
+# Basic Linux Commands
 
-## <span style="color:blue">Contents</span>
+##Contents
 
-1. [<span style="color:darkgreen">Introduction</span>](#introduction)
-2. [<span style="color:darkgreen">echo</span>](#echo)
-3. [<span style="color:darkgreen">mv</span>](#mv)
-4. [<span style="color:darkgreen">cp</span>](#cp)
-5. [<span style="color:darkgreen">mkdir</span>](#mkdir)
-6. [<span style="color:darkgreen">rmdir</span>](#rmdir)
-7. [<span style="color:darkgreen">clear</span>](#clear)
-8. [<span style="color:darkgreen">cal and ncal</span>](#cal-and-ncal)
-9. [<span style="color:darkgreen">pwd</span>](#pwd)
-10. [<span style="color:darkgreen">date</span>](#date)
-11. [<span style="color:darkgreen">free</span>](#free)
-12. [<span style="color:darkgreen">du</span>](#du)
-13. [<span style="color:darkgreen">df</span>](#df)
-14. [<span style="color:darkgreen">cat</span>](#cat)
-15. [<span style="color:darkgreen">ls</span>](#ls)
-16. [<span style="color:darkgreen">rm</span>](#rm)
-17. [<span style="color:darkgreen">lspci</span>](#lspci)
-18. [<span style="color:darkgreen">whereis</span>](#whereis)
-19. [<span style="color:darkgreen">whatis and info</span>](#whatis-and-info)
-20. [<span style="color:darkgreen">cd</span>](#cd)
-21. [<span style="color:darkgreen">more</span>](#more)
-22. [<span style="color:darkgreen">less</span>](#less)
-23. [<span style="color:darkgreen">dircolors</span>](#dircolors)
-24. [<span style="color:darkgreen">manpath</span>](#manpath)
-25. [<span style="color:darkgreen">apropos</span>](#apropos)
-26. [<span style="color:darkgreen">mandb</span>](#mandb)
-27. [<span style="color:darkgreen">history</span>](#history)
-28. [<span style="color:darkgreen">sort</span>](#sort)
-29. [<span style="color:darkgreen">fdisk</span>](#fdisk)
-30. [<span style="color:darkgreen">locate</span>](#locate)
-31. [<span style="color:darkgreen">find</span>](#find)
-32. [<span style="color:darkgreen">ifconfig</span>](#ifconfig)
-33. [<span style="color:darkgreen">apt-get</span>](#apt-get)
-34. [<span style="color:darkgreen">nano</span>](#nano)
-35. [<span style="color:darkgreen">man</span>](#man)
-36. [<span style="color:darkgreen">aircrack-ng</span>](#aircrack-ng)
-37. [<span style="color:darkgreen">wesside-ng</span>](#wesside-ng)
-38. [<span style="color:darkgreen">Other Useful Commands</span>](#other-useful-commands)
-39. [<span style="color:darkgreen">Running Programs from the Console</span>](#running-programs-from-the-console)
-40. [<span style="color:darkgreen">testdisk</span>](#testdisk)
-41. [<span style="color:darkgreen">Functions of Some Files and Directories</span>](#functions-of-some-files-and-directories)
+1. [Introduction](#introduction)
+2. [echo](#echo) 
+3. [mv](#mv) 
+4. [cp](#cp) 
+5. [mkdir](#mkdir) 
+6. [rmdir](#rmdir) 
+7. [clear](#clear) 
+8. [cal and ncal](#cal-and-ncal) 
+9. [pwd](#pwd) 
+10. [date](#date) 
+11. [free](#free)
+12. [du](#du) 
+13. [df](#df) 
+14. [cat](#cat) 
+15. [ls](#ls) 
+16. [rm](#rm) 
+17. [lspci](#lspci)
+18. [whereis](#whereis) 
+19. [whatis and info](#whatis-and-info)
+20. [cd](#cd)
+21. [more](#more)
+22. [less](#less) 
+23. [dircolors](#dircolors) 
+24. [manpath](#manpath) 
+25. [apropos](#apropos) 
+26. [mandb](#mandb) 
+27. [history](#history) 
+28. [sort](#sort) 
+29. [fdisk](#fdisk) 
+30. [locate](#locate) 
+31. [find](#find) 
+32. [ifconfig](#ifconfig) 
+33. [apt-get](#apt-get) 
+34. [nano](#nano) 
+35. [man](#man) 
+36. [aircrack-ng](#aircrack-ng) 
+37. [wesside-ng](#wesside-ng) 
+38. [Other Useful Commands](#other-useful-commands)
+39. [Running Programs from the Console](#running-programs-from-the-console)
+40. [testdisk](#testdisk) 
+41. [Functions of Some Files and Directories](#functions-of-some-files-and-directories) 
 
-## <span style="color:blue">Introduction</span>
+## Introduction
+This repository provides explanations and examples for basic Linux commands. 
 
-This repository provides explanations and examples for basic Linux commands.
-
-## <span style="color:blue">echo</span>
+## echo 
 
 The `echo` command is used to display a line of text/string that is passed as an argument.
 
 **Usage:**
 ```sh
 echo [option] [string]
+```
 
-Examples:
+**Examples:**
+```sh
 echo "Hello, World!"
+```
 
 ## mv 
 
@@ -585,5 +587,3 @@ testdisk
 Files and directories serve various functions in Linux. For example:
 - `/etc`: Contains configuration files.
 - `/home`: Contains user home directories.
-
-
