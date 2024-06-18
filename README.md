@@ -1,6 +1,6 @@
 # Basic Linux Commands
 
-##Contents
+## Contents
 
 1. [Introduction](#introduction)
 2. [echo](#echo) 
@@ -42,7 +42,19 @@
 38. [Other Useful Commands](#other-useful-commands)
 39. [Running Programs from the Console](#running-programs-from-the-console)
 40. [testdisk](#testdisk) 
-41. [Functions of Some Files and Directories](#functions-of-some-files-and-directories) 
+41. [touch](#touch)
+42. [head](#head)
+43. [tail](#tail)
+44. [grep](#grep)
+45. [chmod](#chmod)
+46. [chown](#chown)
+47. [ps](#ps)
+48. [kill](#kill)
+49. [uname](#uname)
+50. [top](#top)
+51. [wget](#wget)
+52. [curl](#curl)
+53. [Functions of Some Files and Directories](#functions-of-some-files-and-directories)
 
 ## Introduction
 This repository provides explanations and examples for basic Linux commands. 
@@ -431,9 +443,7 @@ sort file.txt
 
 ## fdisk 
 
-The `fdisk` command
-
- is a disk partitioning tool.
+The `fdisk` command is a disk partitioning tool.
 
 **Usage:**
 ```sh
@@ -482,7 +492,9 @@ The `ifconfig` command configures a network interface.
 ifconfig [interface] [option]
 ```
 
-**Examples:**
+**
+
+Examples:**
 ```sh
 ifconfig eth0
 ```
@@ -582,7 +594,177 @@ testdisk [option]
 testdisk
 ```
 
-### Functions of Some Files and Directories 
+## touch
+
+The `touch` command is used to create empty files or update the timestamp of existing files.
+
+**Usage:**
+```sh
+touch [option] file_name
+```
+
+**Examples:**
+```sh
+touch newfile.txt
+```
+
+## head
+
+The `head` command outputs the first part of files.
+
+**Usage:**
+```sh
+head [option] [file]
+```
+
+**Examples:**
+```sh
+head file.txt
+head -n 5 file.txt
+```
+
+## tail
+
+The `tail` command outputs the last part of files.
+
+**Usage:**
+```sh
+tail [option] [file]
+```
+
+**Examples:**
+```sh
+tail file.txt
+tail -n 5 file.txt
+```
+
+## grep
+
+The `grep` command searches for patterns in files.
+
+**Usage:**
+```sh
+grep [option] pattern [file]
+```
+
+**Examples:**
+```sh
+grep "hello" file.txt
+grep -i "hello" file.txt
+```
+
+## chmod
+
+The `chmod` command changes file permissions.
+
+**Usage:**
+```sh
+chmod [option] mode file
+```
+
+**Examples:**
+```sh
+chmod 755 file.txt
+chmod +x script.sh
+```
+
+## chown
+
+The `chown` command changes file ownership.
+
+**Usage:**
+```sh
+chown [option] owner[:group] file
+```
+
+**Examples:**
+```sh
+chown user:group file.txt
+```
+
+## ps
+
+The `ps` command reports a snapshot of current processes.
+
+**Usage:**
+```sh
+ps [option]
+```
+
+**Examples:**
+```sh
+ps
+ps aux
+```
+
+## kill
+
+The `kill` command sends a signal to a process, usually to terminate it.
+
+**Usage:**
+```sh
+kill [option] pid
+```
+
+**Examples:**
+```sh
+kill 1234
+kill -9 1234
+```
+
+## uname
+
+The `uname` command prints system information.
+
+**Usage:**
+```sh
+uname [option]
+```
+
+**Examples:**
+```sh
+uname
+uname -a
+```
+
+## top
+
+The `top` command displays real-time system information, including running processes.
+
+**Usage:**
+```sh
+top
+```
+
+## wget
+
+The `wget` command downloads files from the web.
+
+**Usage:**
+```sh
+wget [option] url
+```
+
+**Examples:**
+```sh
+wget http://example.com/file.zip
+```
+
+## curl
+
+The `curl` command transfers data from or to a server.
+
+**Usage:**
+```sh
+curl [option] url
+```
+
+**Examples:**
+```sh
+curl http://example.com
+```
+
+## Functions of Some Files and Directories 
 
 Files and directories serve various functions in Linux. For example:
 - `/etc`: Contains configuration files.
