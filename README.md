@@ -1,4 +1,4 @@
-# Basic Linux Commands
+# Linux Commands
 
 ## Contents
 
