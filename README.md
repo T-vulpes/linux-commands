@@ -56,6 +56,7 @@
 52. [curl](#curl)
 53. [sed](#sed)
 54. [netstat](#netstat)
+55. [lsof](#lsof)
 
 ## Introduction
 This repository provides explanations and examples for basic Linux commands. 
@@ -801,6 +802,16 @@ tcp6       0      0 :::22                   :::*                    LISTEN
 udp        0      0 0.0.0.0:123             0.0.0.0:*
 udp6       0      0 :::123                  :::*
 ```
+## lsof 
+lsof` stands for "list open files." It is used to display information about files that are currently open by processes.
+**Usage:**
+```sh
+lsof -i :80
+```
+Options
+-i : Lists network files.
+:80 : List to show only with port 80.
+
 
 ## Functions of Some Files and Directories 
 
