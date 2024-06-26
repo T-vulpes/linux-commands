@@ -55,6 +55,7 @@
 51. [wget](#wget)
 52. [curl](#curl)
 53. [sed](#sed)
+54. [netstat](#netstat)
 
 ## Introduction
 This repository provides explanations and examples for basic Linux commands. 
@@ -772,7 +773,30 @@ A stream editor used for text processing and transformation.
 ```sh
 sed 's/oldstring/newstring/g' file.txt
 ```
+## netstat
+Displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+The -tuln options in the netstat command provide detailed information about network connections and listening ports. Here's what each option means:
 
+-t: Displays TCP protocol connections.
+-u: Displays UDP protocol connections.
+-l: Shows only listening connections (ports that are currently in listening mode).
+-n: Shows numerical addresses and port numbers (does not resolve names, directly shows IP addresses and port numbers).
+So, the netstat -tuln command lists TCP and UDP protocol listening connections along with their IP addresses and port numbers.
+**Usage:**
+```sh
+netstat -tuln
+```
+
+**Examples:**
+```sh
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN
+tcp6       0      0 :::80                   :::*                    LISTEN
+tcp6       0      0 :::22                   :::*                    LISTEN
+udp        0      0 0.0.0.0:123             0.0.0.0:*
+udp6       0      0 :::123                  :::*
+```
 
 ## Functions of Some Files and Directories 
 
