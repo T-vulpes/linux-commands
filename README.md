@@ -54,7 +54,7 @@
 50. [top](#top)
 51. [wget](#wget)
 52. [curl](#curl)
-53. [Functions of Some Files and Directories](#functions-of-some-files-and-directories)
+53. [sed](#sed)
 
 ## Introduction
 This repository provides explanations and examples for basic Linux commands. 
@@ -763,6 +763,16 @@ curl [option] url
 ```sh
 curl http://example.com
 ```
+
+## sed
+
+A stream editor used for text processing and transformation.
+
+**Usage:**
+```sh
+sed 's/oldstring/newstring/g' file.txt
+```
+
 
 ## Functions of Some Files and Directories 
 
