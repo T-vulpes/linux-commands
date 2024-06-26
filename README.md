@@ -778,9 +778,13 @@ Displays network connections, routing tables, interface statistics, masquerade c
 The -tuln options in the netstat command provide detailed information about network connections and listening ports. Here's what each option means:
 
 -t: Displays TCP protocol connections.
+
 -u: Displays UDP protocol connections.
+
 -l: Shows only listening connections (ports that are currently in listening mode).
+
 -n: Shows numerical addresses and port numbers (does not resolve names, directly shows IP addresses and port numbers).
+
 So, the netstat -tuln command lists TCP and UDP protocol listening connections along with their IP addresses and port numbers.
 **Usage:**
 ```sh
