@@ -55,6 +55,9 @@
 51. [sed](#sed)
 52. [netstat](#netstat)
 53. [lsof](#lsof)
+54. [dnsenum](#dnsenum)
+55. [dnsmap](#dnsmap)
+56. [dmitry](#dmitry)
 
 ## Introduction
 This repository provides explanations and examples for basic Linux commands. 
