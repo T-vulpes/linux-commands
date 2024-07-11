@@ -490,290 +490,277 @@ find / -name file.txt
 The ifconfig command configures a network interface.
 
 **Usage:**
-sh
+```sh
 ifconfig [interface] [option]
+```
 
-
-**
-
-Examples:**
-sh
+**Examples:**
+```sh
 ifconfig eth0
-
+```
 
 ## apt-get 
 
 The apt-get command is a package handling utility.
 
 **Usage:**
-sh
+```sh
 apt-get [option] command
-
+```
 
 **Examples:**
-sh
+```sh
 apt-get update
-
+```
 
 ## nano 
 
 The nano command is a simple text editor.
 
 **Usage:**
-sh
+```sh
 nano [option] [file]
-
+```
 
 **Examples:**
-sh
+```sh
 nano file.txt
-
+```
 
 ## man 
 
 The man command displays the user manual of any command.
 
 **Usage:**
-sh
+```sh
 man [command]
 
-
+```
 **Examples:**
-sh
+```sh
 man ls
-
+```
 
 ## aircrack-ng 
 
 The aircrack-ng command is a network software suite for monitoring and attacking WiFi networks.
 
 **Usage:**
-sh
+```sh
 aircrack-ng [option] [file]
 
-
+```
 **Examples:**
-sh
+```sh
 aircrack-ng -a2 -b [target bssid] [capture file]
-
+```
 
 ## wesside-ng 
 
 The wesside-ng command is an automatic tool for WEP key recovery.
 
 **Usage:**
-sh
+```sh
 wesside-ng [option] [interface]
-
+```
 
 **Examples:**
-sh
+```sh
 wesside-ng -i wlan0
-
-
-## Other Useful Commands
-
-### Running Programs from the Console 
-
-You can run programs from the console by typing their name and pressing Enter.
-
-**Usage:**
-sh
-program_name
-
+```
 
 ### testdisk 
 
 The testdisk command is a data recovery utility.
 
 **Usage:**
-sh
+```sh
 testdisk [option]
-
+```
 
 **Examples:**
-sh
+```sh
 testdisk
-
+```
 
 ## touch
 
 The touch command is used to create empty files or update the timestamp of existing files.
 
 **Usage:**
-sh
+```sh
 touch [option] file_name
 
-
+```
 **Examples:**
-sh
+```sh
 touch newfile.txt
-
+```
 
 ## head
 
 The head command outputs the first part of files.
 
 **Usage:**
-sh
+```sh
 head [option] [file]
-
+```
 
 **Examples:**
-sh
+```sh
 head file.txt
 head -n 5 file.txt
-
+```
 
 ## tail
 
 The tail command outputs the last part of files.
 
 **Usage:**
-sh
+```sh
 tail [option] [file]
-
+```
 
 **Examples:**
-sh
+```sh
 tail file.txt
 tail -n 5 file.txt
-
+```
 
 ## grep
 
 The grep command searches for patterns in files.
 
 **Usage:**
-sh
+```sh
 grep [option] pattern [file]
-
+```
 
 **Examples:**
-sh
+```sh
 grep "hello" file.txt
 grep -i "hello" file.txt
-
+```
 
 ## chmod
 
 The chmod command changes file permissions.
 
 **Usage:**
-sh
+```sh
 chmod [option] mode file
-
+```
 
 **Examples:**
-sh
+```sh
 chmod 755 file.txt
 chmod +x script.sh
-
+```
 
 ## chown
 
 The chown command changes file ownership.
 
 **Usage:**
-sh
+```sh
 chown [option] owner[:group] file
-
+```
 
 **Examples:**
-sh
+```sh
 chown user:group file.txt
-
+```
 
 ## ps
 
 The ps command reports a snapshot of current processes.
 
 **Usage:**
-sh
+```sh
 ps [option]
-
+```
 
 **Examples:**
-sh
+```sh
 ps
 ps aux
-
+```
 
 ## kill
 
 The kill command sends a signal to a process, usually to terminate it.
 
 **Usage:**
-sh
+```sh
 kill [option] pid
-
+```
 
 **Examples:**
-sh
+```sh
 kill 1234
 kill -9 1234
-
+```
 
 ## uname
 
 The uname command prints system information.
 
 **Usage:**
-sh
+```sh
 uname [option]
-
+```
 
 **Examples:**
-sh
+```sh
 uname
 uname -a
-
+```
 
 ## top
 
 The top command displays real-time system information, including running processes.
 
 **Usage:**
-sh
+```sh
 top
-
+```
 
 ## wget
 
 The wget command downloads files from the web.
 
 **Usage:**
-sh
+```sh
 wget [option] url
-
+```
 
 **Examples:**
-sh
+```sh
 wget http://example.com/file.zip
-
+```
 
 ## curl
 
 The curl command transfers data from or to a server.
 
 **Usage:**
-sh
+```sh
 curl [option] url
-
+```
 
 **Examples:**
-sh
+```sh
 curl http://example.com
-
+```
 
 ## sed
 
 A stream editor used for text processing and transformation.
 
 **Usage:**
-sh
+```sh
 sed 's/oldstring/newstring/g' file.txt
-
+```
 ## netstat
 Displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
 The -tuln options in the netstat command provide detailed information about network connections and listening ports. Here's what each option means:
@@ -788,12 +775,12 @@ The -tuln options in the netstat command provide detailed information about netw
 
 So, the netstat -tuln command lists TCP and UDP protocol listening connections along with their IP addresses and port numbers.
 **Usage:**
-sh
+```sh
 netstat -tuln
-
+```
 
 **Examples:**
-sh
+```sh
 Proto Recv-Q Send-Q Local Address           Foreign Address         State
 tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN
 tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN
@@ -801,12 +788,14 @@ tcp6       0      0 :::80                   :::*                    LISTEN
 tcp6       0      0 :::22                   :::*                    LISTEN
 udp        0      0 0.0.0.0:123             0.0.0.0:*
 udp6       0      0 :::123                  :::*
+```
 
 ## lsof 
 lsof stands for "list open files." It is used to display information about files that are currently open by processes.
 **Usage:**
-sh
+```sh
 lsof -i :80
+```
 
 Options
 -i : Lists network files.
@@ -817,9 +806,9 @@ Options
 dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous IP blocks.
 
 **Usage:**
-sh
+```sh
 dnsenum example.com
-
+```
 Common Options:
 -f: Force enumeration even if domain has been already enumerated.
 -o: Output results to a file.
@@ -828,17 +817,17 @@ Common Options:
 --enum: Perform a comprehensive DNS enumeration.
 
 **Example:**
-sh
+```sh
 dnsenum --enum example.com
-
+```
 
 ## dnsmap
 dnsmap is a subdomain brute-forcing tool that uses wordlists to find subdomains of a given domain.
 
 **Usage:**
-sh
+```sh
 dnsmap example.com
-
+```
 Common Options:
 -r: Save results to a file.
 -w: Specify the wordlist to use for brute-forcing.
@@ -846,17 +835,17 @@ Common Options:
 -c: Continue from a specified position in the wordlist.
 
 **Example:**
-sh
+```sh
 dnsmap -r results.txt -w wordlist.txt example.com
-
+```
 
 ## Dmitry
 dmitry (Deepmagic Information Gathering Tool) is a UNIX/(GNU) Linux command line application coded in C. Dmitry has the ability to gather as much information as possible about a host.
 
 **Usage:**
-sh
+```sh
 dmitry example.com
-
+```
 Common Options:
 -i: Perform an IP address lookup.
 -w: Perform a whois lookup on the domain.
@@ -865,10 +854,9 @@ Common Options:
 -e: Perform an email address search.
 
 **Example:**
-sh
+```sh
 dmitry -winse example.com
-
-
+```
 
 ## Functions of Some Files and Directories 
 
