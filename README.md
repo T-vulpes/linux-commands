@@ -828,6 +828,30 @@ Common Options:
 -r: Reverse lookup on the IP range found.
 --enum: Perform a comprehensive DNS enumeration.
 
+**Example:**
+```sh
+dnsenum --enum example.com
+```
+
+## dnsmap
+dnsmap is a subdomain brute-forcing tool that uses wordlists to find subdomains of a given domain.
+
+**Usage:**
+```sh
+dnsmap example.com
+```
+Common Options:
+-r: Save results to a file.
+-w: Specify the wordlist to use for brute-forcing.
+-i: IP address of the DNS server to use for brute-forcing.
+-c: Continue from a specified position in the wordlist.
+
+**Example:**
+```sh
+dnsmap -r results.txt -w wordlist.txt example.com
+```
+
+
 ## Functions of Some Files and Directories 
 
 Files and directories serve various functions in Linux. For example:
