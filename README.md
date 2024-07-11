@@ -1,9 +1,7 @@
 # Basic Linux Commands
 ![GIF](https://github.com/T-vulpes/img/blob/main/ade2b623daa3fcb7ca573b1a4f1fcb59.gif)
 
-<details>
-  <summary>Contents </summary>
-  
+##Contents   
 1. [Introduction](#Introduction)   
 2. [echo](#echo) 
 3. [mv](#mv) 
@@ -60,8 +58,10 @@
 54. [dnsenum](#dnsenum)
 55. [dnsmap](#dnsmap)
 56. [dmitry](#dmitry)
-</details>
 
+
+<details>
+  <summary>COMMANDS</summary>
 ## Introduction
 This repository provides explanations and examples for basic Linux commands. 
 
@@ -860,7 +860,7 @@ Common Options:
 ```sh
 dmitry -winse example.com
 ```
-
+</details>
 ## Functions of Some Files and Directories 
 
 Files and directories serve various functions in Linux. For example:
