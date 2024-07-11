@@ -851,6 +851,25 @@ Common Options:
 dnsmap -r results.txt -w wordlist.txt example.com
 ```
 
+## Dmitry
+dmitry (Deepmagic Information Gathering Tool) is a UNIX/(GNU) Linux command line application coded in C. Dmitry has the ability to gather as much information as possible about a host.
+
+**Usage:**
+```sh
+dmitry example.com
+```
+Common Options:
+-i: Perform an IP address lookup.
+-w: Perform a whois lookup on the domain.
+-n: Perform a whois lookup on the IP address.
+-s: Perform a subdomain search.
+-e: Perform an email address search.
+
+**Example:**
+```sh
+dmitry -winse example.com
+```
+
 
 ## Functions of Some Files and Directories 
 
