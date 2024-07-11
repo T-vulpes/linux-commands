@@ -814,6 +814,20 @@ Options
 :80 : List to show only with port 80.
 
 
+## dnsenum 
+dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous IP blocks.
+
+**Usage:**
+```sh
+dnsenum example.com
+```
+Common Options:
+-f: Force enumeration even if domain has been already enumerated.
+-o: Output results to a file.
+-u: Perform a whois query on the domain name.
+-r: Reverse lookup on the IP range found.
+--enum: Perform a comprehensive DNS enumeration.
+
 ## Functions of Some Files and Directories 
 
 Files and directories serve various functions in Linux. For example:
