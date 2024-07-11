@@ -1,7 +1,8 @@
 # Basic Linux Commands
 ![GIF](https://github.com/T-vulpes/img/blob/main/gif.gif)
-## Contents
 
+<details>
+  <summary>## Contents</summary>
 1. [Introduction](#introduction)
 2. [echo](#echo) 
 3. [mv](#mv) 
@@ -58,6 +59,7 @@
 54. [dnsenum](#dnsenum)
 55. [dnsmap](#dnsmap)
 56. [dmitry](#dmitry)
+</details>
 
 ## Introduction
 This repository provides explanations and examples for basic Linux commands. 
