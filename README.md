@@ -3,312 +3,876 @@
 ## Contents
 
 1. [Introduction](#introduction)
-2. [File Management](#file-management)
-   - [echo](#echo)
-   - [mv](#mv)
-   - [cp](#cp)
-   - [mkdir](#mkdir)
-   - [rmdir](#rmdir)
-   - [touch](#touch)
-3. [System Information](#system-information)
-   - [clear](#clear)
-   - [cal and ncal](#cal-and-ncal)
-   - [pwd](#pwd)
-   - [date](#date)
-   - [free](#free)
-   - [du](#du)
-   - [df](#df)
-   - [uname](#uname)
-   - [top](#top)
-4. [File Viewing](#file-viewing)
-   - [cat](#cat)
-   - [more](#more)
-   - [less](#less)
-   - [head](#head)
-   - [tail](#tail)
-5. [Network Commands](#network-commands)
-   - [ifconfig](#ifconfig)
-   - [netstat](#netstat)
-   - [wget](#wget)
-   - [curl](#curl)
-6. [Process Management](#process-management)
-   - [ps](#ps)
-   - [kill](#kill)
-7. [Text Processing](#text-processing)
-   - [grep](#grep)
-   - [sed](#sed)
-   - [sort](#sort)
-8. [Permissions Management](#permissions-management)
-   - [chmod](#chmod)
-   - [chown](#chown)
-9. [Miscellaneous](#miscellaneous)
-   - [history](#history)
-   - [dnsenum](#dnsenum)
-   - [dnsmap](#dnsmap)
-   - [dmitry](#dmitry)
+2. [echo](#echo) 
+3. [mv](#mv) 
+4. [cp](#cp) 
+5. [mkdir](#mkdir) 
+6. [rmdir](#rmdir) 
+7. [clear](#clear) 
+8. [cal and ncal](#cal-and-ncal) 
+9. [pwd](#pwd) 
+10. [date](#date) 
+11. [free](#free)
+12. [du](#du) 
+13. [df](#df) 
+14. [cat](#cat) 
+15. [ls](#ls) 
+16. [rm](#rm) 
+17. [lspci](#lspci)
+18. [whereis](#whereis) 
+19. [whatis and info](#whatis-and-info)
+20. [cd](#cd)
+21. [more](#more)
+22. [less](#less) 
+23. [dircolors](#dircolors) 
+24. [manpath](#manpath) 
+25. [apropos](#apropos) 
+26. [mandb](#mandb) 
+27. [history](#history) 
+28. [sort](#sort) 
+29. [fdisk](#fdisk) 
+30. [locate](#locate) 
+31. [find](#find) 
+32. [ifconfig](#ifconfig) 
+33. [apt-get](#apt-get) 
+34. [nano](#nano) 
+35. [man](#man) 
+36. [aircrack-ng](#aircrack-ng) 
+37. [wesside-ng](#wesside-ng) 
+38. [testdisk](#testdisk) 
+39. [touch](#touch)
+40. [head](#head)
+41. [tail](#tail)
+42. [grep](#grep)
+43. [chmod](#chmod)
+44. [chown](#chown)
+45. [ps](#ps)
+46. [kill](#kill)
+47. [uname](#uname)
+48. [top](#top)
+49. [wget](#wget)
+50. [curl](#curl)
+51. [sed](#sed)
+52. [netstat](#netstat)
+53. [lsof](#lsof)
+54. [dnsenum](#dnsenum)
+55. [dnsmap](#dnsmap)
+56. [dmitry](#dmitry)
 
 ## Introduction
 This repository provides explanations and examples for basic Linux commands. 
 
-## File Management
+## echo 
 
-### echo
-| Usage | Example |
-|-------|---------|
-| echo [option] [string] | `echo "Hello, World!"` |
+The echo command is used to display a line of text/string that is passed as an argument.
 
-The `echo` command is used to display a line of text/string that is passed as an argument.
+**Usage:**
+sh
+echo [option] [string]
 
-### mv
-| Usage | Example |
-|-------|---------|
-| mv [option] source target | `mv file1.txt file2.txt`<br>`mv file.txt /home/user/Documents/` |
 
-The `mv` command is used to move or rename files and directories.
+**Examples:**
+sh
+echo "Hello, World!"
 
-### cp
-| Usage | Example |
-|-------|---------|
-| cp [option] source destination | `cp file1.txt file2.txt`<br>`cp -r /source/directory /destination/directory` |
 
-The `cp` command is used to copy files and directories.
+## mv 
 
-### mkdir
-| Usage | Example |
-|-------|---------|
-| mkdir [option] directory_name | `mkdir new_directory` |
+The mv command is used to move or rename files and directories.
 
-The `mkdir` command is used to create directories.
+**Usage:**
+sh
+mv [option] source target
 
-### rmdir
-| Usage | Example |
-|-------|---------|
-| rmdir [option] directory_name | `rmdir empty_directory` |
 
-The `rmdir` command is used to remove empty directories.
+**Examples:**
+sh
+mv file1.txt file2.txt
+mv file.txt /home/user/Documents/
 
-### touch
-| Usage | Example |
-|-------|---------|
-| touch [option] file_name | `touch newfile.txt` |
 
-The `touch` command is used to create empty files or update the timestamp of existing files.
+## cp 
 
-## System Information
+The cp command is used to copy files and directories.
 
-### clear
-| Usage | Example |
-|-------|---------|
-| clear | `clear` |
+**Usage:**
+sh
+cp [option] source destination
 
-The `clear` command is used to clear the terminal screen.
 
-### cal and ncal
-| Usage | Example |
-|-------|---------|
-| cal [month] [year] | `cal` |
-| ncal [option] [month] [year] | `ncal -w` |
+**Examples:**
+sh
+cp file1.txt file2.txt
+cp -r /source/directory /destination/directory
 
-The `cal` command displays a simple calendar, and `ncal` displays a calendar in a different format.
 
-### pwd
-| Usage | Example |
-|-------|---------|
-| pwd | `pwd` |
+## mkdir 
 
-The `pwd` command prints the current working directory.
+The mkdir command is used to create directories.
 
-### date
-| Usage | Example |
-|-------|---------|
-| date [option] [+format] | `date`<br>`date "+%Y-%m-%d %H:%M:%S"` |
+**Usage:**
+sh
+mkdir [option] directory_name
 
-The `date` command displays or sets the system date and time.
 
-### free
-| Usage | Example |
-|-------|---------|
-| free [option] | `free`<br>`free -h` |
+**Examples:**
+sh
+mkdir new_directory
 
-The `free` command displays the amount of free and used memory in the system.
 
-### du
-| Usage | Example |
-|-------|---------|
-| du [option] [file] | `du`<br>`du -sh` |
+## rmdir 
 
-The `du` command estimates file space usage.
+The rmdir command is used to remove empty directories.
 
-### df
-| Usage | Example |
-|-------|---------|
-| df [option] | `df`<br>`df -h` |
+**Usage:**
+sh
+rmdir [option] directory_name
 
-The `df` command reports file system disk space usage.
 
-### uname
-| Usage | Example |
-|-------|---------|
-| uname [option] | `uname`<br>`uname -a` |
+**Examples:**
+sh
+rmdir empty_directory
 
-The `uname` command prints system information.
 
-### top
-| Usage | Example |
-|-------|---------|
-| top | `top` |
+## clear 
 
-The `top` command displays real-time system information, including running processes.
+The clear command is used to clear the terminal screen.
 
-## File Viewing
+**Usage:**
+sh
+clear
 
-### cat
-| Usage | Example |
-|-------|---------|
-| cat [option] [file] | `cat file.txt`<br>`cat file1.txt file2.txt` |
 
-The `cat` command concatenates and displays files.
+## cal and ncal
 
-### more
-| Usage | Example |
-|-------|---------|
-| more [option] [file] | `more file.txt` |
+The cal command displays a simple calendar, and ncal displays a calendar in a different format.
 
-The `more` command views file contents interactively.
+**Usage:**
+sh
+cal [month] [year]
+ncal [option] [month] [year]
 
-### less
-| Usage | Example |
-|-------|---------|
-| less [option] [file] | `less file.txt` |
 
-The `less` command views file contents interactively, similar to `more` but with more features.
+**Examples:**
+sh
+cal
+ncal -w
 
-### head
-| Usage | Example |
-|-------|---------|
-| head [option] [file] | `head file.txt`<br>`head -n 5 file.txt` |
 
-The `head` command outputs the first part of files.
+## pwd 
 
-### tail
-| Usage | Example |
-|-------|---------|
-| tail [option] [file] | `tail file.txt`<br>`tail -n 5 file.txt` |
+The pwd command prints the current working directory.
 
-The `tail` command outputs the last part of files.
+**Usage:**
+sh
+pwd
 
-## Network Commands
 
-### ifconfig
-| Usage | Example |
-|-------|---------|
-| ifconfig [interface] [option] | `ifconfig eth0` |
+## date 
 
-The `ifconfig` command configures a network interface.
+The date command displays or sets the system date and time.
 
-### netstat
-| Usage | Example |
-|-------|---------|
-| netstat -tuln | `netstat -tuln` |
+**Usage:**
+sh
+date [option] [+format]
 
-The `netstat` command displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
 
-### wget
-| Usage | Example |
-|-------|---------|
-| wget [option] url | `wget http://example.com/file.zip` |
+**Examples:**
+sh
+date
+date "+%Y-%m-%d %H:%M:%S"
 
-The `wget` command downloads files from the web.
 
-### curl
-| Usage | Example |
-|-------|---------|
-| curl [option] url | `curl http://example.com` |
+## free 
 
-The `curl` command transfers data from or to a server.
+The free command displays the amount of free and used memory in the system.
 
-## Process Management
+**Usage:**
+sh
+free [option]
 
-### ps
-| Usage | Example |
-|-------|---------|
-| ps [option] | `ps`<br>`ps aux` |
 
-The `ps` command reports a snapshot of current processes.
+**Examples:**
+sh
+free
+free -h
 
-### kill
-| Usage | Example |
-|-------|---------|
-| kill [option] pid | `kill 1234`<br>`kill -9 1234` |
 
-The `kill` command sends a signal to a process, usually to terminate it.
+## du 
 
-## Text Processing
+The du command estimates file space usage.
 
-### grep
-| Usage | Example |
-|-------|---------|
-| grep [option] pattern [file] | `grep "hello" file.txt`<br>`grep -i "hello" file.txt` |
+**Usage:**
+sh
+du [option] [file]
 
-The `grep` command searches for patterns in files.
 
-### sed
-| Usage | Example |
-|-------|---------|
-| sed 's/oldstring/newstring/g' file.txt | `sed 's/oldstring/newstring/g' file.txt` |
+**Examples:**
+sh
+du
+du -sh
 
-The `sed` command is a stream editor used for text processing and transformation.
 
-### sort
-| Usage | Example |
-|-------|---------|
-| sort [option] [file] | `sort file.txt` |
+## df 
 
-The `sort` command sorts lines of text files.
+The df command reports file system disk space usage.
 
-## Permissions Management
+**Usage:**
+sh
+df [option]
 
-### chmod
-| Usage | Example |
-|-------|---------|
-| chmod [option] mode file | `chmod 755 file.txt`<br>`chmod +x script.sh` |
 
-The `chmod` command changes file permissions.
+**Examples:**
+sh
+df
+df -h
 
-### chown
-| Usage | Example |
-|-------|---------|
-| chown [option] owner[:group] file | `chown user:group file.txt` |
 
-The `chown` command changes file ownership.
+## cat 
 
-## Miscellaneous
+The cat command concatenates and displays files.
 
-### history
-| Usage | Example |
-|-------|---------|
-| history [option] | `history` |
+**Usage:**
+sh
+cat [option] [file]
 
-The `history` command displays the command history list.
 
-### dnsenum
-| Usage | Example |
-|-------|---------|
-| dnsenum [domain] | `dnsenum example.com` |
+**Examples:**
+sh
+cat file.txt
+cat file1.txt file2.txt
 
-The `dnsenum` command enumerates DNS information of a domain.
 
-### dnsmap
-| Usage | Example |
-|-------|---------|
-| dnsmap [domain] | `dnsmap example.com` |
+## ls 
 
-The `dnsmap` command is used for subdomain bruteforce.
+The ls command lists directory contents.
 
-### dmitry
-| Usage | Example |
-|-------|---------|
-| dmitry [option] target | `dmitry -winsepfb example.com` |
+**Usage:**
+sh
+ls [option] [file]
 
-The `dmitry` command (Deepmagic Information Gathering Tool) is a Unix/Linux command-line application coded in C.
 
+**Examples:**
+sh
+ls
+ls -l
+
+
+## rm 
+
+The rm command removes files or directories.
+
+**Usage:**
+sh
+rm [option] file
+
+
+**Examples:**
+sh
+rm file.txt
+rm -r directory
+
+
+## lspci
+
+The lspci command lists all PCI devices.
+
+**Usage:**
+sh
+lspci [option]
+
+
+**Examples:**
+sh
+lspci
+lspci -v
+
+
+## whereis
+
+The whereis command locates the binary, source, and manual page files for a command.
+
+**Usage:**
+sh
+whereis command
+
+
+**Examples:**
+sh
+whereis ls
+
+
+## whatis and info 
+
+The whatis command displays a one-line description of a command, and info provides detailed information.
+
+**Usage:**
+sh
+whatis command
+info command
+
+
+**Examples:**
+sh
+whatis ls
+info ls
+
+
+## cd
+
+The cd command changes the current directory.
+
+**Usage:**
+sh
+cd [directory]
+
+
+**Examples:**
+sh
+cd /home/user
+
+
+## more 
+
+The more command views file contents interactively.
+
+**Usage:**
+sh
+more [option] [file]
+
+
+**Examples:**
+sh
+more file.txt
+
+
+## less 
+
+The less command views file contents interactively, similar to more but with more features.
+
+**Usage:**
+sh
+less [option] [file]
+
+
+**Examples:**
+sh
+less file.txt
+
+
+## dircolors
+
+The dircolors command sets up color definitions for ls.
+
+**Usage:**
+sh
+dircolors [option] [file]
+
+
+**Examples:**
+sh
+dircolors
+
+
+## manpath 
+
+The manpath command displays the search path for manual pages.
+
+**Usage:**
+sh
+manpath [option]
+
+
+**Examples:**
+sh
+manpath
+
+
+## apropos
+
+The apropos command searches the manual page names and descriptions.
+
+**Usage:**
+sh
+apropos keyword
+
+
+**Examples:**
+sh
+apropos copy
+
+
+## mandb 
+
+The mandb command initializes or updates the manual page index caches.
+
+**Usage:**
+sh
+mandb [option]
+
+
+**Examples:**
+sh
+mandb
+
+
+## history
+
+The history command displays the command history list.
+
+**Usage:**
+sh
+history [option]
+
+
+**Examples:**
+sh
+history
+
+
+## sort
+
+The sort command sorts lines of text files.
+
+**Usage:**
+sh
+sort [option] [file]
+
+
+**Examples:**
+sh
+sort file.txt
+
+
+## fdisk 
+
+The fdisk command is a disk partitioning tool.
+
+**Usage:**
+sh
+fdisk [option] [device]
+
+
+**Examples:**
+sh
+fdisk /dev/sda
+
+
+## locate 
+
+The locate command finds files by name.
+
+**Usage:**
+sh
+locate [option] pattern
+
+
+**Examples:**
+sh
+locate file.txt
+
+
+## find 
+
+The find command searches for files in a directory hierarchy.
+
+**Usage:**
+sh
+find [path] [option] [expression]
+
+
+**Examples:**
+sh
+find / -name file.txt
+
+
+## ifconfig 
+
+The ifconfig command configures a network interface.
+
+**Usage:**
+sh
+ifconfig [interface] [option]
+
+
+**
+
+Examples:**
+sh
+ifconfig eth0
+
+
+## apt-get 
+
+The apt-get command is a package handling utility.
+
+**Usage:**
+sh
+apt-get [option] command
+
+
+**Examples:**
+sh
+apt-get update
+
+
+## nano 
+
+The nano command is a simple text editor.
+
+**Usage:**
+sh
+nano [option] [file]
+
+
+**Examples:**
+sh
+nano file.txt
+
+
+## man 
+
+The man command displays the user manual of any command.
+
+**Usage:**
+sh
+man [command]
+
+
+**Examples:**
+sh
+man ls
+
+
+## aircrack-ng 
+
+The aircrack-ng command is a network software suite for monitoring and attacking WiFi networks.
+
+**Usage:**
+sh
+aircrack-ng [option] [file]
+
+
+**Examples:**
+sh
+aircrack-ng -a2 -b [target bssid] [capture file]
+
+
+## wesside-ng 
+
+The wesside-ng command is an automatic tool for WEP key recovery.
+
+**Usage:**
+sh
+wesside-ng [option] [interface]
+
+
+**Examples:**
+sh
+wesside-ng -i wlan0
+
+
+## Other Useful Commands
+
+### Running Programs from the Console 
+
+You can run programs from the console by typing their name and pressing Enter.
+
+**Usage:**
+sh
+program_name
+
+
+### testdisk 
+
+The testdisk command is a data recovery utility.
+
+**Usage:**
+sh
+testdisk [option]
+
+
+**Examples:**
+sh
+testdisk
+
+
+## touch
+
+The touch command is used to create empty files or update the timestamp of existing files.
+
+**Usage:**
+sh
+touch [option] file_name
+
+
+**Examples:**
+sh
+touch newfile.txt
+
+
+## head
+
+The head command outputs the first part of files.
+
+**Usage:**
+sh
+head [option] [file]
+
+
+**Examples:**
+sh
+head file.txt
+head -n 5 file.txt
+
+
+## tail
+
+The tail command outputs the last part of files.
+
+**Usage:**
+sh
+tail [option] [file]
+
+
+**Examples:**
+sh
+tail file.txt
+tail -n 5 file.txt
+
+
+## grep
+
+The grep command searches for patterns in files.
+
+**Usage:**
+sh
+grep [option] pattern [file]
+
+
+**Examples:**
+sh
+grep "hello" file.txt
+grep -i "hello" file.txt
+
+
+## chmod
+
+The chmod command changes file permissions.
+
+**Usage:**
+sh
+chmod [option] mode file
+
+
+**Examples:**
+sh
+chmod 755 file.txt
+chmod +x script.sh
+
+
+## chown
+
+The chown command changes file ownership.
+
+**Usage:**
+sh
+chown [option] owner[:group] file
+
+
+**Examples:**
+sh
+chown user:group file.txt
+
+
+## ps
+
+The ps command reports a snapshot of current processes.
+
+**Usage:**
+sh
+ps [option]
+
+
+**Examples:**
+sh
+ps
+ps aux
+
+
+## kill
+
+The kill command sends a signal to a process, usually to terminate it.
+
+**Usage:**
+sh
+kill [option] pid
+
+
+**Examples:**
+sh
+kill 1234
+kill -9 1234
+
+
+## uname
+
+The uname command prints system information.
+
+**Usage:**
+sh
+uname [option]
+
+
+**Examples:**
+sh
+uname
+uname -a
+
+
+## top
+
+The top command displays real-time system information, including running processes.
+
+**Usage:**
+sh
+top
+
+
+## wget
+
+The wget command downloads files from the web.
+
+**Usage:**
+sh
+wget [option] url
+
+
+**Examples:**
+sh
+wget http://example.com/file.zip
+
+
+## curl
+
+The curl command transfers data from or to a server.
+
+**Usage:**
+sh
+curl [option] url
+
+
+**Examples:**
+sh
+curl http://example.com
+
+
+## sed
+
+A stream editor used for text processing and transformation.
+
+**Usage:**
+sh
+sed 's/oldstring/newstring/g' file.txt
+
+## netstat
+Displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+The -tuln options in the netstat command provide detailed information about network connections and listening ports. Here's what each option means:
+
+-t: Displays TCP protocol connections.
+
+-u: Displays UDP protocol connections.
+
+-l: Shows only listening connections (ports that are currently in listening mode).
+
+-n: Shows numerical addresses and port numbers (does not resolve names, directly shows IP addresses and port numbers).
+
+So, the netstat -tuln command lists TCP and UDP protocol listening connections along with their IP addresses and port numbers.
+**Usage:**
+sh
+netstat -tuln
+
+
+**Examples:**
+sh
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN
+tcp6       0      0 :::80                   :::*                    LISTEN
+tcp6       0      0 :::22                   :::*                    LISTEN
+udp        0      0 0.0.0.0:123             0.0.0.0:*
+udp6       0      0 :::123                  :::*
+
+## lsof 
+lsof stands for "list open files." It is used to display information about files that are currently open by processes.
+**Usage:**
+sh
+lsof -i :80
+
+Options
+-i : Lists network files.
+:80 : List to show only with port 80.
+
+
+## dnsenum 
+dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous IP blocks.
+
+**Usage:**
+sh
+dnsenum example.com
+
+Common Options:
+-f: Force enumeration even if domain has been already enumerated.
+-o: Output results to a file.
+-u: Perform a whois query on the domain name.
+-r: Reverse lookup on the IP range found.
+--enum: Perform a comprehensive DNS enumeration.
+
+**Example:**
+sh
+dnsenum --enum example.com
+
+
+## dnsmap
+dnsmap is a subdomain brute-forcing tool that uses wordlists to find subdomains of a given domain.
+
+**Usage:**
+sh
+dnsmap example.com
+
+Common Options:
+-r: Save results to a file.
+-w: Specify the wordlist to use for brute-forcing.
+-i: IP address of the DNS server to use for brute-forcing.
+-c: Continue from a specified position in the wordlist.
+
+**Example:**
+sh
+dnsmap -r results.txt -w wordlist.txt example.com
+
+
+## Dmitry
+dmitry (Deepmagic Information Gathering Tool) is a UNIX/(GNU) Linux command line application coded in C. Dmitry has the ability to gather as much information as possible about a host.
+
+**Usage:**
+sh
+dmitry example.com
+
+Common Options:
+-i: Perform an IP address lookup.
+-w: Perform a whois lookup on the domain.
+-n: Perform a whois lookup on the IP address.
+-s: Perform a subdomain search.
+-e: Perform an email address search.
+
+**Example:**
+sh
+dmitry -winse example.com
+
+
+
+## Functions of Some Files and Directories 
+
+Files and directories serve various functions in Linux. For example:
+- /etc: Contains configuration files.
+- /home: Contains user home directories.
