@@ -1,5 +1,5 @@
 # Basic Linux Commands
-
+![GIF](https://tr.pinterest.com/pin/336714509639976585/)
 ## Contents
 
 1. [Introduction](#introduction)
