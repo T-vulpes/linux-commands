@@ -2,11 +2,15 @@
 ![GIF](https://github.com/T-vulpes/img/blob/main/gif.gif)
 
 <details>
-  <summary>## Contents</summary>
+  <summary>Contents </summary>
 1. [Introduction](#introduction)
+  
 2. [echo](#echo) 
+
 3. [mv](#mv) 
+
 4. [cp](#cp) 
+
 5. [mkdir](#mkdir) 
 6. [rmdir](#rmdir) 
 7. [clear](#clear) 
