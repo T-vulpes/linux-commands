@@ -67,424 +67,423 @@ This repository provides explanations and examples for basic Linux commands.
 The echo command is used to display a line of text/string that is passed as an argument.
 
 **Usage:**
-sh
+```sh
 echo [option] [string]
-
+```
 
 **Examples:**
-sh
+```sh
 echo "Hello, World!"
-
+```
 
 ## mv 
 
 The mv command is used to move or rename files and directories.
 
 **Usage:**
-sh
+```sh
 mv [option] source target
-
+```
 
 **Examples:**
-sh
+```sh
 mv file1.txt file2.txt
 mv file.txt /home/user/Documents/
-
+```
 
 ## cp 
 
 The cp command is used to copy files and directories.
 
 **Usage:**
-sh
+```sh
 cp [option] source destination
-
+```
 
 **Examples:**
-sh
+```sh
 cp file1.txt file2.txt
 cp -r /source/directory /destination/directory
-
+```
 
 ## mkdir 
 
 The mkdir command is used to create directories.
 
 **Usage:**
-sh
+```sh
 mkdir [option] directory_name
-
+```
 
 **Examples:**
-sh
+```sh
 mkdir new_directory
-
+```
 
 ## rmdir 
 
 The rmdir command is used to remove empty directories.
 
 **Usage:**
-sh
+```sh
 rmdir [option] directory_name
-
+```
 
 **Examples:**
-sh
+```sh
 rmdir empty_directory
-
+```
 
 ## clear 
 
 The clear command is used to clear the terminal screen.
 
 **Usage:**
-sh
+```sh
 clear
-
+```
 
 ## cal and ncal
 
 The cal command displays a simple calendar, and ncal displays a calendar in a different format.
 
 **Usage:**
-sh
+```sh
 cal [month] [year]
 ncal [option] [month] [year]
-
+```
 
 **Examples:**
-sh
+```sh
 cal
 ncal -w
-
+```
 
 ## pwd 
 
 The pwd command prints the current working directory.
 
 **Usage:**
-sh
+```sh
 pwd
-
+```
 
 ## date 
 
 The date command displays or sets the system date and time.
 
 **Usage:**
-sh
+```sh
 date [option] [+format]
-
+```
 
 **Examples:**
-sh
+```sh
 date
 date "+%Y-%m-%d %H:%M:%S"
-
+```
 
 ## free 
 
 The free command displays the amount of free and used memory in the system.
 
 **Usage:**
-sh
+```sh
 free [option]
-
+```
 
 **Examples:**
-sh
+```sh
 free
 free -h
-
+```
 
 ## du 
 
 The du command estimates file space usage.
 
 **Usage:**
-sh
+```sh
 du [option] [file]
-
+```
 
 **Examples:**
-sh
+```sh
 du
 du -sh
-
+```
 
 ## df 
 
 The df command reports file system disk space usage.
 
 **Usage:**
-sh
+```sh
 df [option]
-
+```
 
 **Examples:**
-sh
+```sh
 df
 df -h
-
+```
 
 ## cat 
 
 The cat command concatenates and displays files.
 
 **Usage:**
-sh
+```sh
 cat [option] [file]
-
+```
 
 **Examples:**
-sh
+```sh
 cat file.txt
 cat file1.txt file2.txt
-
+```
 
 ## ls 
 
 The ls command lists directory contents.
 
 **Usage:**
-sh
+```sh
 ls [option] [file]
-
+```
 
 **Examples:**
-sh
+```sh
 ls
 ls -l
-
+```
 
 ## rm 
 
 The rm command removes files or directories.
 
 **Usage:**
-sh
+```sh
 rm [option] file
-
-
+```
 **Examples:**
-sh
+```sh
 rm file.txt
 rm -r directory
-
+```
 
 ## lspci
 
 The lspci command lists all PCI devices.
 
 **Usage:**
-sh
+```sh
 lspci [option]
-
+```
 
 **Examples:**
-sh
+```sh
 lspci
 lspci -v
 
-
+```
 ## whereis
 
 The whereis command locates the binary, source, and manual page files for a command.
 
 **Usage:**
-sh
+```sh
 whereis command
-
+```
 
 **Examples:**
-sh
+```sh
 whereis ls
-
+```
 
 ## whatis and info 
 
 The whatis command displays a one-line description of a command, and info provides detailed information.
 
 **Usage:**
-sh
+```sh
 whatis command
 info command
-
+```
 
 **Examples:**
-sh
+```sh
 whatis ls
 info ls
-
+```
 
 ## cd
 
 The cd command changes the current directory.
 
 **Usage:**
-sh
+```sh
 cd [directory]
-
+```
 
 **Examples:**
-sh
+```sh
 cd /home/user
-
+```
 
 ## more 
 
 The more command views file contents interactively.
 
 **Usage:**
-sh
+```sh
 more [option] [file]
 
-
+```
 **Examples:**
-sh
+```sh
 more file.txt
-
+```
 
 ## less 
 
 The less command views file contents interactively, similar to more but with more features.
 
 **Usage:**
-sh
+```sh
 less [option] [file]
-
+```
 
 **Examples:**
-sh
+```sh
 less file.txt
 
-
+```
 ## dircolors
 
 The dircolors command sets up color definitions for ls.
 
 **Usage:**
-sh
+```sh
 dircolors [option] [file]
 
-
+```
 **Examples:**
-sh
+```sh
 dircolors
 
-
+```
 ## manpath 
 
 The manpath command displays the search path for manual pages.
 
 **Usage:**
-sh
+```sh
 manpath [option]
-
+```
 
 **Examples:**
-sh
+```sh
 manpath
-
+```
 
 ## apropos
 
 The apropos command searches the manual page names and descriptions.
 
 **Usage:**
-sh
+```sh
 apropos keyword
-
+```
 
 **Examples:**
-sh
+```sh
 apropos copy
-
+```
 
 ## mandb 
 
 The mandb command initializes or updates the manual page index caches.
 
 **Usage:**
-sh
+```sh
 mandb [option]
-
+```
 
 **Examples:**
-sh
+```sh
 mandb
-
+```
 
 ## history
 
 The history command displays the command history list.
 
 **Usage:**
-sh
+```sh
 history [option]
-
+```
 
 **Examples:**
-sh
+```sh
 history
-
+```
 
 ## sort
 
 The sort command sorts lines of text files.
 
 **Usage:**
-sh
+```sh
 sort [option] [file]
-
+```
 
 **Examples:**
-sh
+```sh
 sort file.txt
-
+```
 
 ## fdisk 
 
 The fdisk command is a disk partitioning tool.
 
 **Usage:**
-sh
+```sh
 fdisk [option] [device]
-
+```
 
 **Examples:**
-sh
+```sh
 fdisk /dev/sda
-
+```
 
 ## locate 
 
 The locate command finds files by name.
 
 **Usage:**
-sh
+```sh
 locate [option] pattern
-
+```
 
 **Examples:**
-sh
+```sh
 locate file.txt
-
+```
 
 ## find 
 
 The find command searches for files in a directory hierarchy.
 
 **Usage:**
-sh
+```sh
 find [path] [option] [expression]
-
+```
 
 **Examples:**
-sh
+```sh
 find / -name file.txt
-
+```
 
 ## ifconfig 
 
