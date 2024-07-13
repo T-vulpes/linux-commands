@@ -1,7 +1,7 @@
 # Basic Linux Commands
 ![GIF](https://github.com/T-vulpes/img/blob/main/ade2b623daa3fcb7ca573b1a4f1fcb59.gif)
 
-##Contents   
+**Contents**   
 1. [Introduction](#Introduction)   
 2. [echo](#echo) 
 3. [mv](#mv) 
