@@ -61,7 +61,7 @@
 
 
 <details>
-  <summary>COMMANDS</summary>
+  <summary>*COMMANDS*</summary>
 ## Introduction
 This repository provides explanations and examples for basic Linux commands. 
 
