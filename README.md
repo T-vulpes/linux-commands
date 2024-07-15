@@ -61,8 +61,10 @@
 
 
 <details>
-  <summary>*COMMANDS*</summary>
-## Introduction
+  <summary>COMMANDS</summary>
+
+  
+Introduction
 This repository provides explanations and examples for basic Linux commands. 
 
 ## echo 
