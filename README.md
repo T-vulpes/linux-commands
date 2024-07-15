@@ -64,7 +64,7 @@
   <summary>COMMANDS</summary>
 
   
-Introduction
+**Introduction**
 This repository provides explanations and examples for basic Linux commands. 
 
 ## echo 
@@ -802,7 +802,7 @@ lsof stands for "list open files." It is used to display information about files
 lsof -i :80
 ```
 
-Options
+**Options**
 -i : Lists network files.
 :80 : List to show only with port 80.
 
@@ -863,7 +863,8 @@ Common Options:
 dmitry -winse example.com
 ```
 </details>
-## Functions of Some Files and Directories 
+
+**Functions of Some Files and Directories **
 
 Files and directories serve various functions in Linux. For example:
 - /etc: Contains configuration files.
