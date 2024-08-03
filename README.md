@@ -1,13 +1,20 @@
 # Basic Linux Commands
-| **Command**      | **Command**    | **Command**    | **Command**    | **Command**    | **Command**    | **Command**    | **Command**      | **Command**      |
-|------------------|----------------|----------------|----------------|----------------|----------------|----------------|------------------|------------------|
-| `echo`           | `mv`           | `cp`           | `mkdir`        | `rmdir`        | `clear`        | `cal`          | `ncal`           | `pwd`            |
-| `date`           | `free`         | `du`           | `df`           | `cat`          | `ls`           | `rm`           | `lspci`          | `whereis`        |
-| `whatis`         | `info`         | `cd`           | `more`         | `less`         | `dircolors`    | `manpath`      | `apropos`        | `mandb`          |
-| `history`        | `sort`         | `fdisk`        | `locate`       | `find`         | `ifconfig`     | `apt-get`      | `nano`           | `man`            |
-| `aircrack-ng`    | `wesside-ng`   | `testdisk`     | `touch`        | `head`         | `tail`         | `grep`         | `chmod`          | `chown`          |
-| `ps`             | `kill`         | `uname`        | `top`          | `wget`         | `curl`         | `sed`          | `netstat`        | `lsof`           |
-| `dnsenum`        | `dnsmap`       | `dmitry`       |
+
+# Basic Linux Commands
+
+| **File Operations** | **Directory Operations** | **System Information** | **Process Management** | **Network Management** | **Text Processing** | **Package Management** | **Disk Operations** | **Security Tools**   |
+|---------------------|--------------------------|------------------------|------------------------|------------------------|----------------------|------------------------|---------------------|-----------------------|
+| `cp`                | `mkdir`                  | `echo`                 | `ps`                   | `ifconfig`             | `grep`               | `apt-get`              | `fdisk`             | `aircrack-ng`         |
+| `mv`                | `rmdir`                  | `date`                 | `kill`                 | `netstat`              | `sort`               | `nano`                 | `testdisk`          | `wesside-ng`          |
+| `rm`                | `cd`                     | `free`                 | `top`                  | `curl`                 | `sed`                | `man`                  | `df`                | `dnsenum`             |
+| `touch`             | `pwd`                    | `uname`                |                        | `wget`                 | `awk`                |                        | `du`                | `dnsmap`              |
+| `cat`               | `dircolors`              | `lspci`                |                        | `lsof`                 | `more`               |                        | `lsblk`             | `dmitry`              |
+| `ls`                | `manpath`                | `whereis`              |                        |                        | `less`               |                        | `mount`             |                       |
+|                     | `apropos`                | `whatis`               |                        |                        |                      |                        | `umount`            |                       |
+|                     | `mandb`                  | `info`                 |                        |                        |                      |                        | `blkid`             |                       |
+|                     |                          | `history`              |                        |                        |                      |                        | `ls`                |                       |
+|                     |                          |                        |                        |                        |                      |                        |                     |                       |
+
 
 #
 
