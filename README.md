@@ -1,7 +1,15 @@
 # Basic Linux Commands
+| **Command**      | **Command**    | **Command**    | **Command**    | **Command**    | **Command**    | **Command**    | **Command**      | **Command**      |
+|------------------|----------------|----------------|----------------|----------------|----------------|----------------|------------------|------------------|
+| `echo`           | `mv`           | `cp`           | `mkdir`        | `rmdir`        | `clear`        | `cal`          | `ncal`           | `pwd`            |
+| `date`           | `free`         | `du`           | `df`           | `cat`          | `ls`           | `rm`           | `lspci`          | `whereis`        |
+| `whatis`         | `info`         | `cd`           | `more`         | `less`         | `dircolors`    | `manpath`      | `apropos`        | `mandb`          |
+| `history`        | `sort`         | `fdisk`        | `locate`       | `find`         | `ifconfig`     | `apt-get`      | `nano`           | `man`            |
+| `aircrack-ng`    | `wesside-ng`   | `testdisk`     | `touch`        | `head`         | `tail`         | `grep`         | `chmod`          | `chown`          |
+| `ps`             | `kill`         | `uname`        | `top`          | `wget`         | `curl`         | `sed`          | `netstat`        | `lsof`           |
+| `dnsenum`        | `dnsmap`       | `dmitry`       |
 
-## Introduction
-This document covers various basic Linux commands, their usage, and examples to help users get started with the Linux command line interface.
+#
 
 <details>
   <summary> 1. File and Directory Management</summary>
