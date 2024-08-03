@@ -1,7 +1,3 @@
-Tabii, işte GitHub'a ekleyebileceğiniz şekilde düzenlenmiş hali:
-
----
-
 # Basic Linux Commands
 
 ## Introduction
