@@ -74,7 +74,9 @@ This document covers various basic Linux commands, their usage, and examples to 
     ```
 </details>
 
-## 2. System Information and Management
+<details>
+  <summary>2. System Information and Management</summary>
+
 1. **`whereis`**: Locate the binary, source, and manual page files for a command.
     ```sh
     whereis ls
@@ -232,6 +234,6 @@ This document covers various basic Linux commands, their usage, and examples to 
     ```sh
     dmitry -winsepfbo example.com
     ```
-
+</details>
 ---
 
