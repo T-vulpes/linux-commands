@@ -1,7 +1,5 @@
 # Basic Linux Commands
 
-# Basic Linux Commands
-
 | **File Operations** | **Directory Operations** | **System Information** | **Process Management** | **Network Management** | **Text Processing** | **Package Management** | **Disk Operations** | **Security Tools**   |
 |---------------------|--------------------------|------------------------|------------------------|------------------------|----------------------|------------------------|---------------------|-----------------------|
 | `cp`                | `mkdir`                  | `echo`                 | `ps`                   | `ifconfig`             | `grep`               | `apt-get`              | `fdisk`             | `aircrack-ng`         |
