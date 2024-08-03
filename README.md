@@ -3,7 +3,10 @@
 ## Introduction
 This document covers various basic Linux commands, their usage, and examples to help users get started with the Linux command line interface.
 
-## 1. File and Directory Management
+<details>
+  <summary> 1. File and Directory Management</summary>
+
+
 1. **`echo`**: Display a line of text.
    ```sh
    echo "Hello, World!"
@@ -69,6 +72,7 @@ This document covers various basic Linux commands, their usage, and examples to 
     ```sh
     lspci
     ```
+</details>
 
 ## 2. System Information and Management
 1. **`whereis`**: Locate the binary, source, and manual page files for a command.
