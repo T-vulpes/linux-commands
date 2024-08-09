@@ -64,4 +64,3 @@ Kali Linux is a Debian-based Linux distribution designed for digital forensics a
    ```
 
 By following these steps, you should have Kali Linux up and running on your system, ready for use in penetration testing and security auditing tasks.
-```
