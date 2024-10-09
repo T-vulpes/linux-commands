@@ -19,7 +19,6 @@
 <details>
   <summary> 1. File and Directory Management</summary>
 
-
 1. **`echo`**: Display a line of text.
    ```sh
    echo "Hello, World!"
