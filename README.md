@@ -1,3 +1,5 @@
+
+```markdown
 # Linux Commands
 
 | **File Operations** | **Directory Operations** | **System Information** | **Process Management** | **Network Management** | **Text Processing** | **Package Management** | **Disk Operations** | **Security Tools**   |
@@ -7,11 +9,10 @@
 | `rm`                | `cd`                     | `free`                 | `top`                  | `curl`                 | `sed`                | `man`                  | `df`                | `dnsenum`             |
 | `touch`             | `pwd`                    | `uname`                |                        | `wget`                 | `awk`                |                        | `du`                | `dnsmap`              |
 | `cat`               | `dircolors`              | `lspci`                |                        | `lsof`                 | `more`               |                        | `lsblk`             | `dmitry`              |
-| `ls`                | `manpath`                | `whereis`              |                        |                        | `less`               |                        | `mount`             |                       |
-|                     | `apropos`                | `whatis`               |                        |                        |                      |                        | `umount`            |                       |
-|                     | `mandb`                  | `info`                 |                        |                        |                      |                        | `blkid`             |                       |
-|                     |                          | `history`              |                        |                        |                      |                        | `ls`                |                       |
-|                     |                          |                        |                        |                        |                      |                        |                     |                       |
+| `ls`                | `manpath`                | `whereis`              |                        |                        | `less`               |                        | `mount`             | `chmod`              |
+|                     | `apropos`                | `whatis`               |                        |                        |                      |                        | `umount`            | `chown`               |
+|                     | `mandb`                  | `info`                 |                        |                        |                      |                        | `blkid`             | `whoami`              |
+|                     |                          | `history`              |                        |                        |                      |                        | `ls`                | `ss`                  |
 
 
 ##
@@ -84,6 +85,23 @@
     ```sh
     lspci
     ```
+17. **`head`**: Output the first part of files.
+    ```sh
+    head file.txt
+    ```
+18. **`tail`**: Output the last part of files.
+    ```sh
+    tail file.txt
+    ```
+19. **`chmod`**: Change file modes or Access Control Lists.
+    ```sh
+    chmod 755 file.txt
+    ```
+20. **`chown`**: Change file owner and group.
+    ```sh
+    chown user:group file.txt
+    ```
+
 </details>
 
 <details>
@@ -225,27 +243,35 @@
 34. **`sed`**: Stream editor for filtering and transforming text.
     ```sh
     sed 's/old/new/g' file.txt
+
+
     ```
-35. **`netstat`**: Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+35. **`awk`**: Pattern scanning and processing language.
     ```sh
-    netstat -an
+    awk '{print $1}' file.txt
     ```
-36. **`lsof`**: List open files.
+36. **`netstat`**: Network statistics.
+    ```sh
+    netstat -tuln
+    ```
+37. **`lsof`**: List open files.
     ```sh
     lsof
     ```
-37. **`dnsenum`**: Enumerate DNS information.
+38. **`blkid`**: Locate/print block device attributes.
     ```sh
-    dnsenum example.com
+    blkid
     ```
-38. **`dnsmap`**: Network discovery by brute force.
+39. **`mount`**: Mount a filesystem.
     ```sh
-    dnsmap example.com
+    mount /dev/sdX /mnt
     ```
-39. **`dmitry`**: Deepmagic Information Gathering Tool.
+40. **`umount`**: Unmount a filesystem.
     ```sh
-    dmitry -winsepfbo example.com
+    umount /mnt
     ```
-</details>
 
-#
+</details>
+```
+
+Bu formatla hazırladım. Kodlarla açıklamalar uyumlu bir şekilde yerleştirilmiştir. README dosyanın içeriği ve formatı hazır!
