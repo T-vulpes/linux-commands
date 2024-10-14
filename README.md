@@ -272,6 +272,4 @@
     ```
 
 </details>
-```
-
-Bu formatla hazırladım. Kodlarla açıklamalar uyumlu bir şekilde yerleştirilmiştir. README dosyanın içeriği ve formatı hazır!
+#
