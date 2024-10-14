@@ -14,7 +14,7 @@
 |                     | `mandb`                  | `info`                 |                        |                        |                      |                        | `blkid`             | `whoami`              |
 |                     |                          | `history`              |                        |                        |                      |                        | `ls`                | `ss`                  |
 
-
+'''
 ##
 
 <details>
