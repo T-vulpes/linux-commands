@@ -3,7 +3,7 @@
 
 ```markdown
 
-| **File Operations** | **Directory Operations** | **System Information** | **Process Management** | **Network Management** | **Text Processing** | **Package Management** | **Disk Operations** | **Security Tools**   |
+| File Operations | Directory Operations | System Information | Process Management | Network Management | Text Processing | Package Management | Disk Operations | Security Tools  |
 |---------------------|--------------------------|------------------------|------------------------|------------------------|----------------------|------------------------|---------------------|-----------------------|
 | `cp`                | `mkdir`                  | `echo`                 | `ps`                   | `ifconfig`             | `grep`               | `apt-get`              | `fdisk`             | `aircrack-ng`         |
 | `mv`                | `rmdir`                  | `date`                 | `kill`                 | `netstat`              | `sort`               | `nano`                 | `testdisk`          | `wesside-ng`          |
